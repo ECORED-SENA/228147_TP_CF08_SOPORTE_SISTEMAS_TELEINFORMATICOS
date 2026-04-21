@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La interpretación adecuada de un plano facilita la identificación de rutas de comunicación, equipos activos, enlaces físicos y segmentaciones lógicas. Este análisis es esencial para ejecutar pruebas de conectividad de manera organizada y eficiente, en coherencia con los lineamientos de producción de contenidos educativos digitales establecidas institucionalmente.
+        p.mb-0 La interpretación adecuada de un plano facilita la identificación de rutas de comunicación, equipos activos, enlaces físicos y segmentaciones lógicas. Este análisis es esencial para ejecutar pruebas de conectividad de manera organizada y eficiente, en coherencia con los lineamientos de producción de contenidos educativos digitales establecidos institucionalmente.
     .bg-1
       .px-5
         #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -269,7 +269,7 @@
             .row.justify-content-center.align-items-center
               .col-xl-6.mb-4
                 h4 Topología en estrella
-                p.mb-0 Todos los dispositivos se conectan a un equipo central, como un switch o concentrador. Esta organización permite gestionar la red de forma centralizada y facilita el aislamiento de fallas en nodos individuales. Sin embargo, el funcionamiento general depende del dispositivo central. En la comprobación de conectividad, si un nodo presenta fallas solo ese equipo resulta afectado; no obstante, una interrupción en el equipo central puede generar la inoperatividad total de la red.
+                p.mb-0 Todos los dispositivos se conectan a un equipo central, como un switch o concentrador. Esta organización permite gestionar la red de forma centralizada y facilita el aislamiento de fallas en nodos individuales. Sin embargo, el funcionamiento general depende del dispositivo central. En la comprobación de conectividad, si un nodo presenta fallas, solo ese equipo resulta afectado; no obstante, una interrupción en el equipo central puede generar la inoperatividad total de la red.
               .col-xl-6
                 .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
                   h5 Figura 2.
@@ -279,7 +279,7 @@
             .row.justify-content-center.align-items-center
               .col-xl-6.mb-4
                 h4 Topología de anillo
-                p.mb-0 Cada dispositivo se conecta con otros dos formando un circuito cerrado. Los datos circulan de manera ordenada en un solo sentido o en ambos, según el diseño implementado. Esta estructura reduce la probabilidad de colisiones, pero presenta sensibilidad ante interrupciones físicas en el enlace. Durante la comprobación técnica, una falla en cualquier punto del anillo puede afectar la comunicación global, salvo que exista redundancia que permita mantener la continuidad del servicio.
+                p.mb-0 Cada dispositivo se conecta con otros dos, formando un circuito cerrado. Los datos circulan de manera ordenada en un solo sentido o en ambos, según el diseño implementado. Esta estructura reduce la probabilidad de colisiones, pero presenta sensibilidad ante interrupciones físicas en el enlace. Durante la comprobación técnica, una falla en cualquier punto del anillo puede afectar la comunicación global, salvo que exista redundancia que permita mantener la continuidad del servicio.
               .col-xl-6
                 .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
                   h5 Figura 3.

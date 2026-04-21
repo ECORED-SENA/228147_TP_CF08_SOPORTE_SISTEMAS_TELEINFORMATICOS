@@ -17,7 +17,7 @@
     Separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.2 Redes LAN
-    p.mb-5 Una Red de Área Local permite interconectar dispositivos dentro de un espacio geográfico reducido, como una oficina, un edificio o un campus. Este tipo de red facilita la comunicación interna y el uso compartido de recursos tecnológicos, lo cual favorece la eficiencia operativa y la administración centralizada. A continuación, se presentan sus principales características técnicas.
+    p.mb-5 Una red de área Local permite interconectar dispositivos dentro de un espacio geográfico reducido, como una oficina, un edificio o un campus. Este tipo de red facilita la comunicación interna y el uso compartido de recursos tecnológicos, lo cual favorece la eficiencia operativa y la administración centralizada. A continuación, se presentan sus principales características técnicas.
     .row.justify-content-center.mb-5
       .col-xl-3.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
         .caja-tema1.h-100
@@ -156,25 +156,25 @@
               .tarjeta.color-acento-botones.p-4
                 .row.justify-content-center.mb-3
                   .col-8
-                    img(src='@/assets/curso/tema3/img10.svg' style="max-width: 90px").m-auto
+                    img(src='@/assets/curso/tema3/img11.svg' style="max-width: 90px").m-auto
                 h4.mb-3.estilo-text Conexión a la fuente de energía
                 p.mb-0.text-center Garantiza el suministro eléctrico estable.
               .tarjeta.color-acento-botones.p-4
                 .row.justify-content-center.mb-3
                   .col-8
-                    img(src='@/assets/curso/tema3/img10.svg' style="max-width: 90px").m-auto
+                    img(src='@/assets/curso/tema3/img12.svg' style="max-width: 90px").m-auto
                 h4.mb-3.estilo-text Conexión de interfaces de red
                 p.mb-0.text-center Integración mediante cableado estructurado o fibra óptica.
               .tarjeta.color-acento-botones.p-4
                 .row.justify-content-center.mb-3
                   .col-8
-                    img(src='@/assets/curso/tema3/img10.svg' style="max-width: 90px").m-auto
+                    img(src='@/assets/curso/tema3/img13.svg' style="max-width: 90px").m-auto
                 h4.mb-3.estilo-text Verificación de indicadores LED
                 p.mb-0.text-center Confirmación del estado de enlace y actividad.
               .tarjeta.color-acento-botones.p-4
                 .row.justify-content-center.mb-3
                   .col-8
-                    img(src='@/assets/curso/tema3/img10.svg' style="max-width: 90px").m-auto
+                    img(src='@/assets/curso/tema3/img14.svg' style="max-width: 90px").m-auto
                 h4.mb-3.estilo-text Acceso al equipo
                 p.mb-0.text-center Configuración inicial mediante consola o interfaz #[i web].
         p.mb-5 A continuación, se presentan ejemplos básicos de configuración de dispositivos de red, incluyendo comandos utilizados para establecer la conectividad inicial y la administración técnica.  
@@ -425,7 +425,7 @@
         Separador
         #t_3_7.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 3.7 Redes WAN
-        p.mb-3 Una Red de Área Amplia permite interconectar dispositivos y redes ubicadas en espacios geográficos extensos, como ciudades o países. Este tipo de red facilita la comunicación entre múltiples sedes organizacionales y el acceso a servicios externos, lo cual resulta fundamental para la operación empresarial. A continuación, se presentan sus características principales.
+        p.mb-3 Una red de área Amplia permite interconectar dispositivos y redes ubicadas en espacios geográficos extensos, como ciudades o países. Este tipo de red facilita la comunicación entre múltiples sedes organizacionales y el acceso a servicios externos, lo cual resulta fundamental para la operación empresarial. A continuación, se presentan sus características principales.
         .row.justify-content-center.align-items-center.mb-5
           .col-xl.mb-4.mb-lg-0
             ul.fa-ul.estilo___ul.mb-3
@@ -450,7 +450,7 @@
                 figure
                   img(src='@/assets/curso/tema3/img3.svg', alt='').m-auto
               .col-xl
-                p.mb-0 Durante la comprobación de conectividad en redes WAN es necesario validar diversos elementos operativos.
+                p.mb-0 Durante la comprobación de conectividad en redes WAN, es necesario validar diversos elementos operativos.
           .col-xl-auto.col-md-9(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema3/img28.png', alt='').m-auto
@@ -479,7 +479,7 @@
                   img(src='@/assets/curso/tema3/img31.png', alt='' style="max-width: 500px").m-auto
               .col-xl-6
                 h4 Indicadores operativos para comprobación técnica
-                p.mb-0 Durante la verificación del funcionamiento de la red se deben analizar indicadores como el uso de CPU para determinar el nivel de procesamiento del equipo, el estado de las interfaces para comprobar la disponibilidad del enlace, los errores de transmisión que pueden indicar fallas físicas o lógicas, y las estadísticas de tráfico que permiten evaluar el rendimiento general de la infraestructura.
+                p.mb-0 Durante la verificación del funcionamiento de la red, se deben analizar indicadores como el uso de CPU para determinar el nivel de procesamiento del equipo, el estado de las interfaces para comprobar la disponibilidad del enlace, los errores de transmisión que pueden indicar fallas físicas o lógicas y las estadísticas de tráfico que permiten evaluar el rendimiento general de la infraestructura.
     Separador
     #t_3_8.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.8 Relación entre redes LAN y WAN en la comprobación de conectividad

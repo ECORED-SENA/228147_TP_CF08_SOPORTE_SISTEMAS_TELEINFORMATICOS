@@ -59,7 +59,7 @@
           img(src='@/assets/curso/tema4/img3.png', alt='').m-auto
       .col-xl
         .caja-tema1-3.ajuste-color-3(data-aos="fade-left")
-          p Durante la comprobación técnica del cableado estructurado es necesario verificar los siguientes aspectos.
+          p Durante la comprobación técnica del cableado estructurado, es necesario verificar los siguientes aspectos.
           ul.fa-ul.estilo___ul.mb-0
             li.mb-1
               span.fa-li
