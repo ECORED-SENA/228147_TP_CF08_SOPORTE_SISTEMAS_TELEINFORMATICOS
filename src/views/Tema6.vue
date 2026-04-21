@@ -225,7 +225,7 @@
             h4.mb-4 Pódcast
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="Procedimiento técnico de comprobación de conectividad y su impacto en la calidad del servicio"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/podcast/Procedimiento_calidad_servicio.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
       .col-xl-auto.d-none.d-xl-block

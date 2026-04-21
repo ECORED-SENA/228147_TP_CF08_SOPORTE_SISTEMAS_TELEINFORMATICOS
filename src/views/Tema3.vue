@@ -12,7 +12,7 @@
     p.mb-5 A continuación, se presenta un video sobre las redes de datos, sus funciones operativas, características técnicas y beneficios en el entorno organizacional.
     figure(data-aos="zoom-in").mb-0
       .video.mb-1
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Tj8ibpl5fTA?si=ZxtoIRuV9ufxjd0O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption(data-aos="zoom-in") #[b Video]. Redes de datos: funciones, arquitectura y validación técnica.
     Separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
