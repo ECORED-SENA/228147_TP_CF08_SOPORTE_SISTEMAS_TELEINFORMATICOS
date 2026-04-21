@@ -36,7 +36,7 @@
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Disponibilidad y capacidad
-    p.mb-5 La disponibilidad representa el tiempo durante el cual la red permanece operativa y accesible para los usuarios. Este indicador resulta crítico en entornos organizacionales, ya que la continuidad del servicio influye directamente en la productividad y en la ejecución de procesos.
+    p.mb-5 La disponibilidad representa el tiempo durante el cual la red permanece operativa y accesible para los usuarios. Este indicador resulta crítico en entornos organizacionales ya que la continuidad del servicio influye directamente en la productividad y en la ejecución de procesos.
     .caja-tema1-1.mb-5(data-aos="flip-up")
       .row.align-items-center
         .col-xl-auto.col-md-2.mb-3.mb-lg-0(data-aos="fade-right")

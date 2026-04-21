@@ -126,12 +126,12 @@
             li.mb-4
               span.fa-li
                 i.fas.fa-check-circle
-              | #[b Fibra monomodo]. Permite transmisiones a larga distancia con baja atenuación.
+              | #[b Fibra monomodo]: permite transmisiones a larga distancia con baja atenuación.
             li.mb-0
               span.fa-li
                 i.fas.fa-check-circle
-              | #[b Fibra multimodo]. Se utiliza en distancias medias dentro de infraestructuras internas.
-        p Durante la comprobación técnica de enlaces en fibra óptica es necesario verificar diversos aspectos operativos.
+              | #[b Fibra multimodo]: se utiliza en distancias medias dentro de infraestructuras internas.
+        p Durante la comprobación técnica de enlaces en fibra óptica, es necesario verificar diversos aspectos operativos.
         ul.fa-ul.estilo___ul.mb-3
           li.mb-2
             span.fa-li
@@ -347,7 +347,7 @@
         Separador
         #t_4_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 4.6 Modelo TCP/IP y funcionamiento de protocolos
-        p.mb-5 Los protocolos de comunicación establecen las reglas que permiten el intercambio de información entre dispositivos dentro de una red. Sin la existencia de protocolos definidos, la transmisión de datos sería desorganizada e incompatible entre equipos de distintos fabricantes. Durante la comprobación de conectividad es indispensable verificar que los protocolos y los servicios de infraestructura operen correctamente, debido a que una falla en estos puede impedir la comunicación incluso cuando el medio físico se encuentra en buen estado. A continuación, se presenta la organización funcional del modelo TCP/IP y su relación con el diagnóstico técnico de la conectividad.
+        p.mb-5 Los protocolos de comunicación establecen las reglas que permiten el intercambio de información entre dispositivos dentro de una red. Sin la existencia de protocolos definidos, la transmisión de datos sería desorganizada e incompatible entre equipos de distintos fabricantes. Durante la comprobación de conectividad, es indispensable verificar que los protocolos y los servicios de infraestructura operen correctamente, debido a que una falla en estos puede impedir la comunicación incluso cuando el medio físico se encuentra en buen estado. A continuación, se presenta la organización funcional del modelo TCP/IP y su relación con el diagnóstico técnico de la conectividad.
     .row.align-items-center.mb-5
       .col-xl-auto(data-aos="fade-right")
         figure.d-none.d-xl-block
@@ -373,11 +373,11 @@
       .col-xl-10
         AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")(data-aos="zoom-in")
           .row(titulo="<em>Internet Protocol (IP)</em>").ajuste-cajaAcordion
-            p.mb-3 Se encarga del direccionamiento lógico y del enrutamiento de paquetes dentro de la red. Cada dispositivo debe contar con una dirección IP única para garantizar la comunicación. Durante la comprobación técnica se deben validar la dirección IP asignada para confirmar la identificación del equipo, la máscara de subred para determinar el alcance de la red local, la puerta de enlace para permitir el acceso a redes externas y la configuración de rutas para asegurar el encaminamiento adecuado.
+            p.mb-3 Se encarga del direccionamiento lógico y del enrutamiento de paquetes dentro de la red. Cada dispositivo debe contar con una dirección IP única para garantizar la comunicación. Durante la comprobación técnica, se deben validar la dirección IP asignada para confirmar la identificación del equipo, la máscara de subred para determinar el alcance de la red local, la puerta de enlace para permitir el acceso a redes externas y la configuración de rutas para asegurar el encaminamiento adecuado.
           .row(titulo="<em>Transmission Control Protocol (TCP)</em>").ajuste-cajaAcordion
             p.mb-3 Garantiza la entrega confiable de los datos mediante confirmaciones de recepción y mecanismos de control de errores. Problemas como retransmisiones frecuentes pueden generar disminución del rendimiento, la latencia elevada puede incrementar el tiempo de respuesta y las interrupciones de sesión pueden afectar el funcionamiento de aplicaciones o servicios.
           .row(titulo="<em>User Datagram Protocol (UDP)</em>").ajuste-cajaAcordion
-            p.mb-3 Permite la transmisión de datos sin confirmación de recepción, priorizando la velocidad sobre la confiabilidad. Es utilizado en servicios como transmisión de video o #[i Voice over IP (VoIP)]. Durante la validación técnica se debe considerar que este protocolo no reporta la pérdida de paquetes de la misma manera que TCP.
+            p.mb-3 Permite la transmisión de datos sin confirmación de recepción, priorizando la velocidad sobre la confiabilidad. Es utilizado en servicios como transmisión de video o #[i Voice over IP (VoIP)]. Durante la validación técnica, se debe considerar que este protocolo no reporta la pérdida de paquetes de la misma manera que TCP.
           .row(titulo="<em>Internet Control Message Protocol (ICMP)</em>").ajuste-cajaAcordion
             p.mb-3 Permite el envío de mensajes de diagnóstico y notificación de errores en la red. Constituye la base de herramientas de comprobación de conectividad como ping, que permite verificar la comunicación básica entre dispositivos, y traceroute, que facilita la identificación de la ruta seguida por los paquetes.
           .row(titulo="Puertos de comunicación más utilizados").ajuste-cajaAcordion
@@ -393,20 +393,20 @@
             .row.justify-content-center.align-items-center
               .col-xl-6.mb-4
                 h4 #[i Servicio Dynamic Host Configuration Protocol (DHCP)]
-                p.mb-0 Permite asignar automáticamente direcciones IP a los dispositivos conectados a la red. Durante la comprobación técnica se debe validar el estado del servidor DHCP para confirmar la disponibilidad del servicio, el rango de direcciones disponibles para garantizar la capacidad de asignación, el tiempo de concesión para verificar los parámetros configurados y la asignación correcta a los dispositivos para confirmar la obtención de una dirección IP válida. Una falla en este servicio puede impedir la comunicación en la red.
+                p.mb-0 Permite asignar automáticamente direcciones IP a los dispositivos conectados a la red. Durante la comprobación técnica, se debe validar el estado del servidor DHCP para confirmar la disponibilidad del servicio, el rango de direcciones disponibles para garantizar la capacidad de asignación, el tiempo de concesión para verificar los parámetros configurados y la asignación correcta a los dispositivos para confirmar la obtención de una dirección IP válida. Una falla en este servicio puede impedir la comunicación en la red.
               .col-xl-6
                 figure
                   img(src='@/assets/curso/tema4/img13.png', alt='' style="max-width: 500px").m-auto
             .row.justify-content-center.align-items-center
               .col-xl-6.mb-4
                 h4 #[i Servicio Domain Name System (DNS)]
-                p.mb-0 Permite traducir nombres de dominio en direcciones IP. Para validar su funcionamiento se debe verificar la respuesta a consultas realizadas al servidor, revisar la configuración de los servidores definidos y analizar la resolución interna y externa para confirmar el acceso a recursos locales y remotos. Un error en este servicio puede impedir el acceso a aplicaciones o plataformas aun cuando exista conectividad IP.
+                p.mb-0 Permite traducir nombres de dominio en direcciones IP. Para validar su funcionamiento, se debe verificar la respuesta a consultas realizadas al servidor, revisar la configuración de los servidores definidos y analizar la resolución interna y externa para confirmar el acceso a recursos locales y remotos. Un error en este servicio puede impedir el acceso a aplicaciones o plataformas aun cuando exista conectividad IP.
               .col-xl-6
                 figure
                   img(src='@/assets/curso/tema4/img14.png', alt='' style="max-width: 500px").m-auto
             .row.justify-content-center.align-items-center
               .col-xl-6.mb-4
-                h4 #[i Servicio Proxy]
+                h4 Servicio Proxy
                 p.mb-0 Actúa como intermediario entre los dispositivos internos y la red externa. Su correcta configuración permite controlar el acceso a Internet y registrar el tráfico de red. En la comprobación técnica se debe validar la configuración general del servicio, la autenticación de usuarios para asegurar el control de acceso, las reglas de navegación establecidas y el registro del tráfico para facilitar procesos de auditoría y monitoreo. Una configuración incorrecta puede limitar o bloquear el acceso a recursos externos.
               .col-xl-6
                 figure

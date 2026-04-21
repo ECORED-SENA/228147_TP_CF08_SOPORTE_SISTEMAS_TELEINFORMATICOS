@@ -327,7 +327,7 @@
                   img(src='@/assets/curso/tema6/img28.png', alt="" ).m-auto
               .col-xl-7.order-1.order-lg-2.mb-4.mb-lg-0
                 h4.txt--purpura.mb-4 Matriz básica de diagnóstico de fallas
-                p.mb-0 Las matrices de diagnóstico permiten identificar de forma rápida posibles causas de problemas de conectividad. Por ejemplo, la ausencia de acceso a la red puede asociarse a fallas en la capa física como cableado dañado o desconectado; la falta de navegación en Internet puede relacionarse con errores de direccionamiento en la capa de red; y la inaccesibilidad a aplicaciones web puede indicar fallas en la capa de aplicación, como indisponibilidad del servicio #[i Domain Name System (DNS)]. El uso de estas matrices contribuye a optimizar el análisis técnico y reducir los tiempos de respuesta en la solución de incidentes.
+                p.mb-0 Las matrices de diagnóstico permiten identificar de forma rápida posibles causas de problemas de conectividad. Por ejemplo, la ausencia de acceso a la red puede asociarse a fallas en la capa física, como cableado dañado o desconectado; la falta de navegación en Internet puede relacionarse con errores de direccionamiento en la capa de red; y la inaccesibilidad a aplicaciones web puede indicar fallas en la capa de aplicación, como indisponibilidad del servicio #[i Domain Name System (DNS)]. El uso de estas matrices contribuye a optimizar el análisis técnico y reducir los tiempos de respuesta en la solución de incidentes.
 </template>
 
 <script>
