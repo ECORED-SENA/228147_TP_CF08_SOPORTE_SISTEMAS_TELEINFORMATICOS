@@ -23,7 +23,7 @@
           h4 Protocolo técnico para la instalación e integración de cámaras IP en sistema NVR
           p.mb-0 Se invita a consultar este documento, donde se explica el procedimiento para la conexión, direccionamiento, configuración y validación de cámaras IP en sistemas de videovigilancia. Material de apoyo para fortalecer la instalación y verificación técnica de sistemas CCTV sobre redes de datos.
         .col-xl-2
-          a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexo_.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/anexos/Anexo1.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
     Separador

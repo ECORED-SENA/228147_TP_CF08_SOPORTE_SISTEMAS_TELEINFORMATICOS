@@ -17,39 +17,39 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Cuestionario - Comprobación y Validación de Conectividad de Red',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Evaluar la comprensión conceptual, técnica y procedimental del aprendiz respecto a la comprobación de la conectividad en redes de datos, mediante la aplicación de conocimientos sobre topologías, medios de transmisión, protocolos, direccionamiento IP, herramientas de validación y procedimientos técnicos, garantizando coherencia con la normativa de telecomunicaciones y los lineamientos establecidos en la orden de trabajo.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Qué significa comprobar la conectividad de una red?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Instalar nuevos dispositivos.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Verificar el estado físico y lógico conforme a normativa técnica.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Reiniciar los equipos de red.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Cambiar direcciones IP manualmente.',
               esCorrecta: false,
             },
           ],
@@ -59,28 +59,28 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            '¿Cuál parámetro indica el tiempo que tarda un paquete en ir y regresar?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Throughput.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Jitter.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Latencia.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'MTTR.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +89,29 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto:
+            '¿Cuál es el valor aceptable de pérdida de paquetes en una red LAN estable?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '10%.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '5%.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: '1% o menos.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: '15%.',
               esCorrecta: false,
             },
           ],
@@ -119,29 +120,28 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+          texto: 'En una topología en estrella, el punto único de falla es:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'El cableado secundario.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'El switch central.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'El router externo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'El servidor DNS.',
               esCorrecta: false,
             },
           ],
@@ -150,28 +150,29 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto:
+            '¿Qué norma regula las distancias máximas en cableado estructurado?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'IEEE 802.11.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'TIA/EIA.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'ICMP.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'SMTP.',
               esCorrecta: false,
             },
           ],
@@ -181,28 +182,28 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Cuál es la distancia máxima recomendada para cable UTP en Ethernet?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '50 metros.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '150 metros.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: '100 metros.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: '300 metros.',
               esCorrecta: false,
             },
           ],
@@ -211,29 +212,28 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+          texto: '¿Qué protocolo asigna direcciones IP automáticamente?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'DNS.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'DHCP.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'HTTP.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'FTP.',
               esCorrecta: false,
             },
           ],
@@ -242,29 +242,28 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: '¿Qué protocolo asigna direcciones IP automáticamente?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Cableado físico.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Puerto del switch.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Servicio DNS.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Fuente de poder.',
               esCorrecta: false,
             },
           ],
@@ -274,19 +273,29 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+            '¿Qué herramienta permite identificar la ruta que siguen los paquetes?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Netstat.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Ping.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Traceroute.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'ARP.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -294,19 +303,28 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+          texto: '¿Qué comando muestra la configuración IP en Windows?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Route print.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Tracert.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ipconfig/all.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Netstat.',
               esCorrecta: false,
             },
           ],
@@ -316,19 +334,29 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            '¿Cuál es la fórmula para calcular hosts disponibles en una subred?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: '2n.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: '2n-2.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'n2.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: '2 + n.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -336,19 +364,28 @@ export default {
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+          texto: '¿Qué rango corresponde a direcciones privadas clase C?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: '10.0.0.0 /8',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: '172.16.0.0 /12',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: '192.168.0.0 /16',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: '224.0.0.0 /4',
               esCorrecta: false,
             },
           ],
@@ -357,19 +394,28 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+          texto: '¿Cuál es el puerto estándar del protocolo HTTPS?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: '80.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: '253.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: '443.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: '21.',
               esCorrecta: false,
             },
           ],
@@ -378,20 +424,29 @@ export default {
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+          texto: '¿Qué comando permite verificar resolución de nombres?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Ping.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Ipconfig.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Nslookup.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Arp.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -400,18 +455,182 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            '¿Qué indicador mide el porcentaje de tiempo que un servicio está activo?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Jitter.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'SLA.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Disponibilidad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Throughput.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: 'En una red WAN, la latencia suele ser:',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Menor que el LAN.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Igual que en LAN.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Mayor que en LAN.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Nula.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué elemento garantiza continuidad del servicio en un centro de datos?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Cable UTP adicional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Redundancia de equipos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Configuración manual de IP.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Switch no gestionable.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Qué herramienta permite visualizar conexiones activas y puertos abiertos?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ping.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Netstat.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Traceroute.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'DHCP.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué debe hacerse primero en un procedimiento técnico estructurado?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ejecutar traceroute.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Cambiar IP.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Inspección física inicial.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Reiniciar el servidor.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Cuál es el objetivo final del procedimiento técnico de comprobación?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Reconfigurar toda la red.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Sustituir equipos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Restablecer y documentar la conectividad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Actualizar el firmware.',
               esCorrecta: false,
             },
           ],

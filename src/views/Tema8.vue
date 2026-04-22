@@ -79,7 +79,7 @@
           h4 Protocolo técnico: integración del sistema de seguridad con la red 
           p.mb-0 Se invita a consultar este documento, donde se explica el proceso de integración de sistemas de videovigilancia con la infraestructura de red, incluyendo segmentación mediante VLAN, direccionamiento IP, verificación de conectividad y acceso remoto seguro. Material de apoyo para fortalecer la configuración y validación técnica de sistemas CCTV sobre redes de datos.
         .col-xl-2
-          a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexo_.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/anexos/Anexo2.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
     .caja-tema7.mb-0(data-aos="flip-up")
@@ -91,7 +91,7 @@
           h4 Protocolo técnico para pruebas y puesta en funcionamiento del sistema de seguridad electrónica (CCTV IP) 
           p.mb-0 Se invita a consultar este documento, donde se describen los procedimientos para verificar la conectividad, validar la grabación, comprobar el acceso remoto y evaluar el funcionamiento general del sistema de videovigilancia IP. Material de apoyo para fortalecer la validación técnica y la puesta en marcha de sistemas CCTV sobre redes de datos.
         .col-xl-2
-          a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexo_.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/anexos/Anexo3.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
     Separador
@@ -129,7 +129,7 @@
           .row(titulo="Configuración de reglas de acceso").ajuste-cajaAcordion
             p.mb-3 Los sistemas integrados de seguridad requieren la definición de políticas que permitan controlar la administración y supervisión de los dispositivos conectados. Esto incluye la definición de usuarios autorizados para controlar quién accede al sistema, el establecimiento de niveles de permisos para asignar funciones operativas, la restricción de acceso a cámaras o áreas con el fin de proteger información sensible y el registro de actividades de los operadores para garantizar auditoría y trazabilidad. Un adecuado control de accesos contribuye a preservar la integridad del sistema y prevenir manipulaciones no autorizadas.
           .row(titulo="Gestión de alertas y eventos").ajuste-cajaAcordion
-            p.mb-3 Los sistemas de seguridad electrónica pueden generar alertas automáticas ante eventos relacionados con vigilancia o control de accesos. Por ejemplo, la detección de movimiento puede activar notificaciones o iniciar la grabación, el acceso no autorizado puede generar alarmas o bloqueos del sistema, la pérdida de conexión con un dispositivo puede originar alertas en la plataforma de monitoreo y la activación de sensores de intrusión puede registrar el evento y enviar notificaciones al personal de seguridad. Estas acciones mejoran la capacidad de respuesta ante incidentes.
+            p.mb-3 Los sistemas de seguridad electrónica pueden generar alertas automáticas ante eventos relacionados con vigilancia o control de accesos. Por ejemplo, la detección de movimiento puede activar notificaciones o iniciar la grabación; el acceso no autorizado puede generar alarmas o bloqueos del sistema; la pérdida de conexión con un dispositivo puede originar alertas en la plataforma de monitoreo y la activación de sensores de intrusión puede registrar el evento y enviar notificaciones al personal de seguridad. Estas acciones mejoran la capacidad de respuesta ante incidentes.
           .row(titulo="Plataformas de gestión centralizada").ajuste-cajaAcordion
             p.mb-3 Permiten administrar múltiples sistemas de seguridad desde una única interfaz, lo cual facilita el control integral de la infraestructura. Integran tecnologías como sistemas de videovigilancia CCTV para supervisión visual continua, sistemas de control de acceso para gestionar el ingreso a áreas restringidas, sistemas de alarma para la detección temprana de incidentes y sensores de intrusión que refuerzan la protección de zonas críticas. La administración centralizada contribuye a optimizar la supervisión y reducir los tiempos de respuesta.
           .row(titulo="Integración con otros sistemas tecnológicos").ajuste-cajaAcordion
@@ -189,7 +189,7 @@
                   img(src='@/assets/curso/tema8/img12.png', alt='' style="max-width: 500px").m-auto
               .col-xl-6
                 h4 Configuración de cámaras basadas en #[i Internet Protocol (IP)]
-                p.mb-0 Las cámaras IP se conectan directamente a la red de datos, por lo cual requieren la definición de parámetros de comunicación como la dirección IP del dispositivo para su identificación dentro de la red, la máscara de subred para definir el segmento lógico, la puerta de enlace para facilitar la comunicación con otros segmentos, el servidor #[i Domain Name System (DNS)] para la resolución de nombres y las credenciales de acceso que garantizan la seguridad administrativa. Por ejemplo, se puede configurar la dirección IP 192.168.10.50, máscara 255.255.255.0 y puerta de enlace 192.168.10.1. También es necesario ajustar parámetros de video como la resolución de imagen que determina la calidad visual, la velocidad de cuadros por segundo #[i (Frames per second – FPS)] que influye en la fluidez, la compresión que optimiza el uso del ancho de banda y almacenamiento y la activación de detección de movimiento que facilita la generación de eventos automáticos.
+                p.mb-0 Las cámaras IP se conectan directamente a la red de datos, por lo cual requieren la definición de parámetros de comunicación como la dirección IP del dispositivo para su identificación dentro de la red, la máscara de subred para definir el segmento lógico, la puerta de enlace para facilitar la comunicación con otros segmentos, el servidor #[i Domain Name System (DNS)] para la resolución de nombres y las credenciales de acceso que garantizan la seguridad administrativa. Por ejemplo, se puede configurar la dirección IP 192.168.10.50, máscara 255.255.255.0 y puerta de enlace 192.168.10.1. También es necesario ajustar parámetros de video como la resolución de imagen, que determina la calidad visual, la velocidad de cuadros por segundo #[i (Frames per second - FPS)], que influye en la fluidez; la compresión, que optimiza el uso del ancho de banda y almacenamiento; y la activación de detección de movimiento, que facilita la generación de eventos automáticos.
             .row.justify-content-center.align-items-center
               .col-xl-6.mb-4
                 figure
@@ -203,7 +203,7 @@
                   img(src='@/assets/curso/tema8/img14.png', alt='' style="max-width: 500px").m-auto
               .col-xl-6
                 h4 Configuración de red en sistemas de videovigilancia
-                p.mb-0 Para garantizar la operación adecuada del sistema #[i Closed Circuit Television (CCTV)], los dispositivos deben integrarse correctamente dentro de la red empresarial. Esto implica definir el direccionamiento IP para la identificación y comunicación, implementar segmentación mediante Virtual Local Area Network (VLAN) para mejorar la seguridad y el rendimiento, configurar los puertos de comunicación que permiten el acceso a servicios de monitoreo y aplicar priorización del tráfico mediante #[i Quality of Service (QoS)] para asegurar la transmisión eficiente del video. En entornos empresariales se recomienda asignar una VLAN exclusiva para videovigilancia con el fin de optimizar el desempeño y reforzar la seguridad.
+                p.mb-0 Para garantizar la operación adecuada del sistema #[i Closed Circuit Television (CCTV)], los dispositivos deben integrarse correctamente dentro de la red empresarial. Esto implica definir el direccionamiento IP para la identificación y comunicación, implementar segmentación mediante Virtual Local Area Network (VLAN) para mejorar la seguridad y el rendimiento, configurar los puertos de comunicación que permiten el acceso a servicios de monitoreo y aplicar priorización del tráfico mediante #[i Quality of Service (QoS)] para asegurar la transmisión eficiente del video. En entornos empresariales, se recomienda asignar una VLAN exclusiva para videovigilancia con el fin de optimizar el desempeño y reforzar la seguridad.
     Separador
     #t_8_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 8.3 Configuración de acceso remoto y almacenamiento
@@ -353,7 +353,7 @@
                     img(src='@/assets/curso/tema8/img23.svg' style="max-width: 90px").m-auto
                 h4.mb-3.estilo-text Pruebas de detección de eventos
                 p.mb-0.text-center Permiten comprobar la generación de alertas automáticas.
-        p.mb-5 continuación, se presentan las principales pruebas técnicas que permiten verificar el correcto funcionamiento del sistema de seguridad electrónica sobre red.
+        p.mb-5 A continuación, se presentan las principales pruebas técnicas que permiten verificar el correcto funcionamiento del sistema de seguridad electrónica sobre red.
         .row.justify-content-center.mb-0
           .col-xl-10
             AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")(data-aos="zoom-in")

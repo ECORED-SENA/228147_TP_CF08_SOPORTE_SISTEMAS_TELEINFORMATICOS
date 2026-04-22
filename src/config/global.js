@@ -390,14 +390,68 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Centro de datos',
+      significado:
+        'Infraestructura digital o física donde se alojan sistemas informáticos encargados de procesar, almacenar, gestionar o respaldar la información de una organización.',
+    },
+    {
+      termino: 'CIDR',
+      significado:
+        'Método de asignación de direcciones IP denominado Classless Inter-Domain Routing (CIDR) que mejora la eficiencia del enrutamiento en internet al permitir una gestión más flexible de los rangos de direcciones.',
+    },
+    {
+      termino: 'Conectividad',
+      significado:
+        'Capacidad de establecer enlaces o conexiones entre personas, dispositivos, sistemas o ideas, lo que permite la transferencia de información, recursos o energía y facilita la comunicación y la colaboración.',
+    },
+    {
+      termino: 'DHCP',
+      significado:
+        'Protocolo derivado de Bootstrap Protocol (BOOTP) que permite asignar automáticamente direcciones IP y otros parámetros de configuración de red, especialmente en entornos con gran cantidad de dispositivos o equipos móviles.',
+    },
+    {
+      termino: 'DNS',
+      significado:
+        'Sistema denominado Domain Name System (DNS) que traduce los nombres de dominio comprensibles para las personas en direcciones IP utilizadas por los servidores para identificar recursos en la red.',
+    },
+    {
+      termino: 'MTTR',
+      significado:
+        'Métrica conocida como Mean Time to Restore (MTTR) que indica el tiempo promedio necesario para recuperar la operación normal de un sistema, servicio o producto después de una falla o incidente.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Cruz, W. C. (2024). El CIDR – prefijo de red – máscara. Apuntes de Walther Curo.',
+      link: 'https://blog.walthercuro.com/el-cidr-prefijo-de-red-mascara/',
+    },
+    {
+      referencia: 'IONOS. (2019). El DHCP y la configuración de redes.',
       link: '',
+    },
+    {
+      referencia: 'IONOS. (2023). ¿Qué es el DNS (Domain Name System)?',
+      link:
+        'https://www.ionos.com/es-us/digitalguide/servidores/know-how/domain-name-system/',
+    },
+    {
+      referencia:
+        'Ortiz, A. E. (2025). ¿Qué es la conectividad? Origen del término, significado, definición y ejemplos. HostDime Blog.',
+      link:
+        'https://blog.hostdime.com.co/que-es-conectividad-orige-termino-significa-definicion-ejemplos/',
+    },
+    {
+      referencia:
+        'Quiñonez, J. (2024). El significado del MTTR en la ciberseguridad. a3sec.',
+      link:
+        'https://a3sec.com/blog/el-significado-del-mttr-en-la-ciberseguridad',
+    },
+    {
+      referencia:
+        'Villalba, D. (2020). ¿Qué es un centro de datos y cuáles son sus beneficios? Pragma.',
+      link:
+        'https://www.pragma.co/es/blog/que-es-un-centro-de-datos-y-cuales-son-sus-beneficios',
     },
   ],
   creditos: [
@@ -420,9 +474,16 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Joinner Enrique Osorio Martínez',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -430,14 +491,16 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Jorge David Barbosa Losada',
+          cargo: 'Diseñador de contenidos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Cielo Damaris Angulo Rodríguez',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Alejandro Delgado Acosta',
@@ -472,8 +535,14 @@ export default {
       ],
     },
     {
-      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
+      titulo: 'GESTORES DE REPOSITORIO',
       autores: [
+        {
+          nombre: 'Javier Ricardo Ortiz Puentes',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
         {
           nombre: 'Aixa Natalia Sendoya Fernández',
           cargo: 'Validador de recursos educativos digitales',
@@ -481,19 +550,13 @@ export default {
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Ricardo Oliveros Zambrano',
-          cargo: 'Validador de recursos educativos digitales',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },
-        {
-          nombre: 'Anyerson Wilfredo Pizo Ossa',
+          nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
+          nombre: 'Anyerson Wilfredo Pizo Ossa',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
