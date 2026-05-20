@@ -66,7 +66,6 @@ export default {
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
@@ -374,7 +373,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/228147_CF8_DU.pdf',
+        download: 'downloads/228147_CF08_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -538,7 +537,7 @@ export default {
       titulo: 'GESTORES DE REPOSITORIO',
       autores: [
         {
-          nombre: 'Javier Ricardo Ortiz Puentes',
+          nombre: 'Ricardo Oliveros Zambrano',
           cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
