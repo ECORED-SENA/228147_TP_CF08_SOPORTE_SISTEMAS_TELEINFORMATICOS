@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La interpretación adecuada de un plano facilita la identificación de rutas de comunicación, equipos activos, enlaces físicos y segmentaciones lógicas. Este análisis es esencial para ejecutar pruebas de conectividad de manera organizada y eficiente, en coherencia con los lineamientos de producción de contenidos educativos digitales establecidos institucionalmente.
+        p.mb-0 La interpretación adecuada de un plano facilita la identificación de rutas de comunicación, equipos activos, enlaces físicos y segmentaciones lógicas. Este análisis es esencial para ejecutar pruebas de conectividad de manera organizada y eficiente, en coherencia con los lineamientos de producción de contenidos educativos digitales establecidas institucionalmente.
     .bg-1
       .px-5
         #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")

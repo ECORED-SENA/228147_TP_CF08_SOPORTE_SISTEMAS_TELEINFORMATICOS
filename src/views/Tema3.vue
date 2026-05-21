@@ -17,7 +17,7 @@
     Separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.2 Redes LAN
-    p.mb-5 Una red de área Local permite interconectar dispositivos dentro de un espacio geográfico reducido, como una oficina, un edificio o un campus. Este tipo de red facilita la comunicación interna y el uso compartido de recursos tecnológicos, lo cual favorece la eficiencia operativa y la administración centralizada. A continuación, se presentan sus principales características técnicas.
+    p.mb-5 Una red de área local permite interconectar dispositivos dentro de un espacio geográfico reducido, como una oficina, un edificio o un campus. Este tipo de red facilita la comunicación interna y el uso compartido de recursos tecnológicos, lo cual favorece la eficiencia operativa y la administración centralizada. A continuación, se presentan sus principales características técnicas.
     .row.justify-content-center.mb-5
       .col-xl-3.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
         .caja-tema1.h-100
@@ -425,7 +425,7 @@
         Separador
         #t_3_7.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 3.7 Redes WAN
-        p.mb-3 Una red de área Amplia permite interconectar dispositivos y redes ubicadas en espacios geográficos extensos, como ciudades o países. Este tipo de red facilita la comunicación entre múltiples sedes organizacionales y el acceso a servicios externos, lo cual resulta fundamental para la operación empresarial. A continuación, se presentan sus características principales.
+        p.mb-3 Una red de área amplia permite interconectar dispositivos y redes ubicadas en espacios geográficos extensos, como ciudades o países. Este tipo de red facilita la comunicación entre múltiples sedes organizacionales y el acceso a servicios externos, lo cual resulta fundamental para la operación empresarial. A continuación, se presentan sus características principales.
         .row.justify-content-center.align-items-center.mb-5
           .col-xl.mb-4.mb-lg-0
             ul.fa-ul.estilo___ul.mb-3
